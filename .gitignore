@@ -1,0 +1,78 @@
+old
+old/
+old/*
+backup
+backup/
+backup/*
+big
+big/
+big/*
+uftrace*
+uftrace.*
+*.stackdump
+*.class
+push.sh
+*.p.txt
+*.gcov
+*.gcno
+drstrace*
+drmemory*
+*.log
+.ninja*
+
+## files emitted by each stage
+td.*.txt
+td?.*.txt
+
+# kate leaving junk all over the place
+*.kate-swp
+
+# ignore cmake build directory
+build/
+
+#### big fat warning: this will catch D lang files. funny, that.
+*.d
+*.dep
+*.depends
+
+# extra stuff from https://www.gitignore.io
+### C++ ###
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# debug files
+*.ilk
+*.dbg
+*.pdb
+*.mdb
+*.tbh
+*.tbt
+*.tbs
+*.stackdump
+*.core
